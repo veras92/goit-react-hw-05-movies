@@ -1,0 +1,40 @@
+.section {
+  padding: 25px;
+}
+
+.movieDetails {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.movieDetailsPoster {
+  width: 300px;
+}
+
+.movieDetailsDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.movieDetailsInformTitle {
+  margin-bottom: 20px;
+}
+
+.movieDetailsInformList {
+  display: inline-block;
+}
+
+.movieDetailsInformList li {
+  transition: color 250ms linear;
+}
+
+.movieDetailsInformList li:hover {
+  color: rgb(15, 160, 76);
+}
+
+.movieDetailsInformList li:first-child {
+  margin-bottom: 10px;
+}
